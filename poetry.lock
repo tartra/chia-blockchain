@@ -876,38 +876,38 @@ pytest = ">=8.3.3,<9.0.0"
 
 [[package]]
 name = "chia-rs"
-version = "0.35.0"
+version = "0.37.0"
 description = ""
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "chia_rs-0.35.0-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:017f41f9aac58df5b97ddb528da85e7d86446061615af39d2bcd29bf1625ecfd"},
-    {file = "chia_rs-0.35.0-cp310-cp310-macosx_13_0_x86_64.whl", hash = "sha256:f4780e2c858c3d4dd0dbd7938739089f8644474633af0ffbc2f432fe0eb00949"},
-    {file = "chia_rs-0.35.0-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:84962c41b00b29ae7e71450253646951762a913983d42cba24ea0415e2ed7f13"},
-    {file = "chia_rs-0.35.0-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:d5a31dd9a65f187108e8eba5025814b3b5f749b72943267aacc93df51b8d333e"},
-    {file = "chia_rs-0.35.0-cp310-cp310-win_amd64.whl", hash = "sha256:b9ea895bbf28f2a7d0509a25c6300b0d734e14922bea392034d372f59b0bb4ea"},
-    {file = "chia_rs-0.35.0-cp311-cp311-macosx_13_0_arm64.whl", hash = "sha256:36e7100eb85b92ba703876cbab30796d2dc7ad60aa4004e1038226fe553fafe5"},
-    {file = "chia_rs-0.35.0-cp311-cp311-macosx_13_0_x86_64.whl", hash = "sha256:fa06fbafc98be54052916e48d0b47f0b10264077f2b60d7e934e0f317b1c3d56"},
-    {file = "chia_rs-0.35.0-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:652b27081da04a770df1b47e553f5dde4defc28d6c488a58f1dfc0397902098d"},
-    {file = "chia_rs-0.35.0-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:525c3c17f9102a0f2a1d79774f2654266f36ee91f971dce1cbc5ff89b71edaf8"},
-    {file = "chia_rs-0.35.0-cp311-cp311-win_amd64.whl", hash = "sha256:6b6149b5ddfe1c2548babe3e18afecbd7c4d62e2cda5d27c02d781fabae241b1"},
-    {file = "chia_rs-0.35.0-cp312-cp312-macosx_13_0_arm64.whl", hash = "sha256:452030cec6220380c2e2ca711ad4206515a5a493c8877ecbd2e6f669077677e6"},
-    {file = "chia_rs-0.35.0-cp312-cp312-macosx_13_0_x86_64.whl", hash = "sha256:fad6c68b8c1ed27acca46704c5048c431dfc4afc110048cd5ec97983095ae156"},
-    {file = "chia_rs-0.35.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:7a166ca40ee72b4c53add5063b54e4f93171bdc79f5c3d537b9bb516efa95737"},
-    {file = "chia_rs-0.35.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:2b2c357b2dda27a3eb38c5bfabfe8f1e4141e51f06997f4c8fb96fc26301dedf"},
-    {file = "chia_rs-0.35.0-cp312-cp312-win_amd64.whl", hash = "sha256:6909865490ef91ea04cc64b6bfe37c28c250c62286f2ddb101e619b37016680a"},
-    {file = "chia_rs-0.35.0-cp313-cp313-macosx_13_0_arm64.whl", hash = "sha256:4533537cc2fbc056e82dd3b060eb5cbe921069ce79d11c2eb515cb50f9e63d74"},
-    {file = "chia_rs-0.35.0-cp313-cp313-macosx_13_0_x86_64.whl", hash = "sha256:7d4f2fe981561f88bb6a1bd646644d8063d702469494f36f18d879f3252a21d0"},
-    {file = "chia_rs-0.35.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:3180921f188ac5f5635dacff96607793072cb5107aefa2e645f289f8780d982e"},
-    {file = "chia_rs-0.35.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:321f8aee3f56e2992c71343edd5fba913fc7b4e68642049b252f7d9bfeb86f74"},
-    {file = "chia_rs-0.35.0-cp313-cp313-win_amd64.whl", hash = "sha256:208f4ecd5beea377cb585799fd2f15f34e58fa5e47d0e436f9d1ca47e472a331"},
-    {file = "chia_rs-0.35.0-cp314-cp314-macosx_13_0_arm64.whl", hash = "sha256:10e6ab4a5369681093928b523fe81460a73006cf796ab5ac67d627c53f7dbef2"},
-    {file = "chia_rs-0.35.0-cp314-cp314-macosx_13_0_x86_64.whl", hash = "sha256:d6a77b3a63c4a4dd23cd76a6b0eb32a4a78382f00149fdc8351d5c63a0e32822"},
-    {file = "chia_rs-0.35.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:498edd70f1a3454490942aee131d1967ad4c1bab7b4aa340bca2087a47786eb8"},
-    {file = "chia_rs-0.35.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:347ff311c2c584b3a51bd9e04d9139f8a0920089fc04bf859c68e0519f47ec95"},
-    {file = "chia_rs-0.35.0-cp314-cp314-win_amd64.whl", hash = "sha256:b83ff3a7bde42e3c9de9a5bb59b68d749ec37e7cd8543cd74bcb502f236efeee"},
-    {file = "chia_rs-0.35.0.tar.gz", hash = "sha256:a09040d07e1a6ad137eb89febccc0ba82919454fc923657e175164607ec69124"},
+    {file = "chia_rs-0.37.0-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:2d41db7846a54f4e9acc5e20096eab8a8cd387326fbf9253eef303150dcc124b"},
+    {file = "chia_rs-0.37.0-cp310-cp310-macosx_13_0_x86_64.whl", hash = "sha256:938ebde34af09b96acb5bf6f3be0200e28e8cdf6cfe54cda7f8dbe66a5b5bfc8"},
+    {file = "chia_rs-0.37.0-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:44d3661dd4056761ba0b7d186a1bf5688f988c50201e77ad3ce92340f02aaa6d"},
+    {file = "chia_rs-0.37.0-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:10b490c14b8f607deba13fcc0a0095bb31affa4d0b0f94423538c21296a1c388"},
+    {file = "chia_rs-0.37.0-cp310-cp310-win_amd64.whl", hash = "sha256:83e64cd834791d0e61dd5cd13650834897c4708d6130cd28be83b756d3c12681"},
+    {file = "chia_rs-0.37.0-cp311-cp311-macosx_13_0_arm64.whl", hash = "sha256:d58ad1556baaba4c3e36d3bfa6c79611f3349c938635c173a9bea7c5aa755b87"},
+    {file = "chia_rs-0.37.0-cp311-cp311-macosx_13_0_x86_64.whl", hash = "sha256:6d925a188e9a38c2020a8d40d080d8c507cad6c82c27a648def2e6a7f005afa0"},
+    {file = "chia_rs-0.37.0-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:27753b9b45004688293368f289d69ac43085ca7bb203229ed9d8c9d58fd62c1c"},
+    {file = "chia_rs-0.37.0-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:e53f0cdbb1ea5e04d3fc484633a615f65c8dfc062e7b21127b7fc8a02085d827"},
+    {file = "chia_rs-0.37.0-cp311-cp311-win_amd64.whl", hash = "sha256:74daad0d2266aa293406d92513d57ce3beda6c7da73ba365143c78ac871df7f6"},
+    {file = "chia_rs-0.37.0-cp312-cp312-macosx_13_0_arm64.whl", hash = "sha256:614e8154be519006e828553c951f3604efde54225731936c27d82fe07dc1770d"},
+    {file = "chia_rs-0.37.0-cp312-cp312-macosx_13_0_x86_64.whl", hash = "sha256:3e813637df5dbfbf76797cd576ae4088f760e9dafd3930d9848285d80e2ac8ea"},
+    {file = "chia_rs-0.37.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:2472009ca39831409397912bb6f3b4d76f6ef8059cc8fe840685b5e847c94fc9"},
+    {file = "chia_rs-0.37.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:4bac95fa0813954171f37d30264d7a58680d96b5bef63aa38cd0bf655e5c8f41"},
+    {file = "chia_rs-0.37.0-cp312-cp312-win_amd64.whl", hash = "sha256:5cf3cc0b1db442e4c2d85b3c2034b88f1d87dd097aac2b8591af9309a989c23a"},
+    {file = "chia_rs-0.37.0-cp313-cp313-macosx_13_0_arm64.whl", hash = "sha256:cd5293bf22044c76632d870a512ecc4ff6ba69021d1880a7d4458f4342b3cd59"},
+    {file = "chia_rs-0.37.0-cp313-cp313-macosx_13_0_x86_64.whl", hash = "sha256:ccfb622abc491780f2405e0de544a6ca7b924d5004b7dfe4b79c4aa54037dd46"},
+    {file = "chia_rs-0.37.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:ef2c1cc971860ee4d084e371752612fbc2a61c6e2cf280e5ff2e05efa9577c95"},
+    {file = "chia_rs-0.37.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:dc24a6d171a03bb05a9f237c94b9458b7f970299bc32472931d19b3fa9fd800d"},
+    {file = "chia_rs-0.37.0-cp313-cp313-win_amd64.whl", hash = "sha256:b872923fff3f3d4ce539d5c660ada180d0805f7413b75fee74b8f147d796800b"},
+    {file = "chia_rs-0.37.0-cp314-cp314-macosx_13_0_arm64.whl", hash = "sha256:43325270ce134767bc0eb687df42c7374ea4bc89c6d04423f3957e395945ae8f"},
+    {file = "chia_rs-0.37.0-cp314-cp314-macosx_13_0_x86_64.whl", hash = "sha256:56311e8ed362142d9c27e7832301b7696c50cea51db795cde0f67ba401e89a9f"},
+    {file = "chia_rs-0.37.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:f81e10b0a9ee2dfbd80be07a605672b4169876158945ddc48b81d6b5eaeabfad"},
+    {file = "chia_rs-0.37.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:57d0c588f2f5599d3ef1280cf48c2d881c65a6e4adddf6c0079d264c948c7182"},
+    {file = "chia_rs-0.37.0-cp314-cp314-win_amd64.whl", hash = "sha256:c40491af95960b4289db31e35a66305c2fcc8aae4889851ab576333613092015"},
+    {file = "chia_rs-0.37.0.tar.gz", hash = "sha256:4068dd6eddef0a1cd674bb47a483d9c435087220707c4819a6032fc1d16945dc"},
 ]
 
 [package.dependencies]
@@ -4022,4 +4022,4 @@ upnp = ["miniupnpc"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10, <4"
-content-hash = "4a1ab350b6deffe7fee62c88552b1de2a2663205a202a99b4599ecd52b9757fd"
+content-hash = "2324573c246cc11b8c58b578109875a5faed54bf8241222d3aee1d7b5be17219"
