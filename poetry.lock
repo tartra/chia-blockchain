@@ -3503,26 +3503,31 @@ files = [
 
 [[package]]
 name = "tach"
-version = "0.32.0"
+version = "0.33.1"
 description = "A Python tool to maintain a modular package architecture."
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
 markers = "extra == \"dev\""
 files = [
-    {file = "tach-0.32.0-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:513cc1d927c93b8bd416020e8150e64cde78c818e4db8549a1dfbcf94840dd9f"},
-    {file = "tach-0.32.0-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:8609b8c13397c71b77d2efdec858ad2c62c629bcbef5536c887b6103e97a4718"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a398b4afdcb9d1ddde2b22d469aa98bf749201ac28f38283c5bdbcfe367ae739"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:94bf495e1a903b1e27bd9f1d67110a216a9f45d7de85e17634f7d8dc7c244d8c"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:473265b123052872aa3264e53e16fab3d01f5cb475fd36210a167c2b50df86c0"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:58538d0c3ba9150e4fefb3b0e567f29816533d4dfabfd43ae84a8945aef04103"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:48a5f8cbe9d6f150868368725f14ea8dbcd1a42bf02fcc91537962ca0934f1c1"},
-    {file = "tach-0.32.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d95f6579f3c980640bd58f92d3ec4862d1d5c61897a0c54c39de106fe000ff2b"},
-    {file = "tach-0.32.0-cp37-abi3-win32.whl", hash = "sha256:139e706770dcfd75cf2427fb3c74402f2044fbd599cc1f94306a6bf32f902311"},
-    {file = "tach-0.32.0-cp37-abi3-win_amd64.whl", hash = "sha256:70379d864944dc171c35911d90ec6a20c36edc9102bd5c811e374c5b3b0e491a"},
-    {file = "tach-0.32.0-pp311-pypy311_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:cbc53bd20c6d9a4df0e071543f536903c5df2c4d0c0bae1f6782a76835636052"},
-    {file = "tach-0.32.0-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fbf8294ac156f27a14e2a4220f49c391f25234759d53add590ef88c19e6dca24"},
-    {file = "tach-0.32.0.tar.gz", hash = "sha256:62a19bc6373f1d1673e48e5131092e2cd8bda0658193f1cdb9e3143fb7761bff"},
+    {file = "tach-0.33.1-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c613272229bb30fcb56ce2e686020d93efcbe61c16a6993bd49f325a189115dc"},
+    {file = "tach-0.33.1-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:a7579c523e378f4b973d91d96b3ebe22ba87e18de0ad89308738ca417f81db3e"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:87b656a9ab4c3b2d188302b0f9ffd595fc10b22096fe4f7bbb3e267ed4cf2c1e"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:7e8c670612397858284d9b7c0e05531a29ee8855ab434ced5d3807286fe1511d"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:07eb344ffed45f3057a1025efbae4e9cee261f640825603879d5119b50cd35ac"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:93b08901050ca3e7f8b9181884160dfa90df482643da0e3fba0ffea28824eb13"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9c4e62ace79ca787c57314eace1ae86e1eaec11b453718a833e1c71de2ccf220"},
+    {file = "tach-0.33.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9b4298e381245814f07f8b583f8111629853e6c2ddd907cb3bc0b09dfbdb02f0"},
+    {file = "tach-0.33.1-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:26288b53f27909da58a7209b1c453fa453bd472062d41fa8b932d1f766e79735"},
+    {file = "tach-0.33.1-cp37-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:acb3f06ac2c0f814dfcd7b9e91013c8be9b268cbd75ba0bca1b274993dd41b8c"},
+    {file = "tach-0.33.1-cp37-abi3-musllinux_1_2_i686.whl", hash = "sha256:c8db979434432ddc5429a29774d2c719d4b20b00f2edcb2c9dd04b5068d890ac"},
+    {file = "tach-0.33.1-cp37-abi3-musllinux_1_2_ppc64le.whl", hash = "sha256:e3d88aa5dead9b8da4300f9b2b4ad0e0a657dd9a5ca32b02adad509ed985f003"},
+    {file = "tach-0.33.1-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:3c18203bbe78e3194983affa3feec7e764e0690bbbdc4f7557171ced47cdf01b"},
+    {file = "tach-0.33.1-cp37-abi3-win32.whl", hash = "sha256:61641432e79398812965aa4d793571bfad72087f9c66d5e54a80f2831927951a"},
+    {file = "tach-0.33.1-cp37-abi3-win_amd64.whl", hash = "sha256:72ea962d9500773ccb8a6172913a94e6bd5f57b02042b260df8e74b3d79fc953"},
+    {file = "tach-0.33.1-pp311-pypy311_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:8851e5d44934dc39a671acc581589ea04e03c7615f6885c738a38a8804e9cbbb"},
+    {file = "tach-0.33.1-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:de91b93346af165072c616b2cbc586ea58187682af9ed064af94f880417dcc21"},
+    {file = "tach-0.33.1.tar.gz", hash = "sha256:dc1d214acb66e28613eccbd68b9fa9ed762c8607dc50a88f87c26a47137765f5"},
 ]
 
 [package.dependencies]
@@ -3531,7 +3536,7 @@ networkx = ">=2.6,<4.0"
 prompt-toolkit = ">=3.0,<4.0"
 pydot = ">=2,<5"
 pyyaml = ">=6.0,<7.0"
-rich = ">=13.0,<15"
+rich = ">=13.0"
 tomli = ">=1.2.2"
 tomli-w = ">=1.0,<2.0"
 
